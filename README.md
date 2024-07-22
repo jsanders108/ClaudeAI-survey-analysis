@@ -4,6 +4,19 @@
 
 This project demonstrates the application of AI, specifically Anthropic's Claude 3.5 Sonnet, in analyzing and reporting on cryptocurrency survey data. The aim is to showcase how AI can be leveraged to quickly process survey results, perform statistical analysis, and generate comprehensive reports.
 
+## Survey Background
+
+In late 2022, I conducted a survey to gauge public sentiment towards cryptocurrencies following a tumultuous year in the industry. The cryptocurrency market faced significant challenges, including the collapse of Terra Luna and the implosion of the FTX exchange, leading to a prolonged downward trend in prices and substantial losses for many investors.
+
+The survey aimed to explore several key areas:
+- Awareness of and familiarity with cryptocurrencies
+- Current cryptocurrency ownership (including specific cryptocurrencies owned)
+- Reasons for owning or not owning cryptocurrencies
+- General attitudes towards cryptocurrencies
+- Likelihood of purchasing cryptocurrencies in the future
+
+This survey provides valuable insights into public perception and behavior regarding cryptocurrencies during a period of market volatility and decreased confidence in the industry.
+
 ---
 
 ## Repository Contents
@@ -11,7 +24,6 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
 1. `crypto-survey-objectives.md`: Outlines the survey's objectives and methodology.
 2. `crypto-survey-banners.md`: Contains banner tables and chi-square analysis results.
 3. `crypto-survey-final-report.md`: The AI-generated comprehensive report based on the survey data.
-4. `Crypto_Survey_Data.csv`: The raw data file containing survey responses.
 
 ---
 
@@ -19,19 +31,14 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
 
 ### 1. Data Collection
 
-Survey data was collected from 178 U.S. respondents via a QuestionPro Audience panel in December 2022.
+Survey data was collected from 150 U.S. respondents via a QuestionPro Audience panel from December 22-28, 2022. The survey consisted of 18 questions covering various aspects of cryptocurrency awareness, ownership, and attitudes. 
 
 ### 2. AI-Powered Analysis
 
 Raw data was uploaded to Claude 3.5 Sonnet with the following prompt to create banner tables and perform chi-square analysis:
 
 ```
-I have uploaded a raw data file that contains results from a survey about cryptocurrencies.
-I would like you to create market research banner tables for this information.
-Specifically, for the first 5 questions in the survey, I would like along the y-axis the percentage of
-respondents who selected each answer choice. At the top, along the y-axis, should be the answer choices for
-each of the demographic questions. Please output a nicely formatted set of banner tables.
-I don't want any analysis. Just the formatted data. 
+I have uploaded a raw data file that contains results from a survey about cryptocurrencies. I would like you to create market research banner tables for this information. Specifically, for the first 5 questions in the survey, I would like along the y-axis the percentage of respondents who selected each answer choice. At the top, along the y-axis, should be the answer choices for each of the demographic questions. Please output a nicely formatted set of banner tables. I don't want any analysis. Just the formatted data. 
 
 Please condense the categories for the age question into the following: 
 a) 18-34 
@@ -54,8 +61,7 @@ a) Others, Primary/Elementary, Secondary/High School, no formal education
 b) University Undergraduate Bachelors 
 c) University Postgraduate (Master), University Postgraduate (PhD)
 
-After creating the banner tables, for each of the first 5 questions, run chi-square analysis to
-determine if there are any statistically significant differences with each of the demographic questions.
+After creating the banner tables, for each of the first 5 questions, run chi-square analysis to determine if there are any statistically significant differences with each of the demographic questions.
 ```
 
 #### Example: Banner Table for First Question
@@ -148,11 +154,9 @@ I have uploaded two documents:
 
 1) The first document describes the objectives and methodology of a cryptocurrency survey I fielded in late 2022.
 
-2) The second document contains the results (in banner table format) of the first 5 questions in the survey.
-Across the top of the banner tables are the demographic questions. A chi square analysis is located under the banner tables. 
+2) The second document contains the results (in banner table format) of the first 5 questions in the survey. Across the top of the banner tables are the demographic questions. A chi square analysis is located under the banner tables. 
 
-Write a concise report that summarizes the results. This summary should incorporate information in the
-objectives/methodology document. This summary should be well written and professional in tone.
+Write a concise report that summarizes the results. This summary should incorporate information in the objectives/methodology document. This summary should be well written and professional in tone.
 ```
 
 #### Excerpt from the Final Report

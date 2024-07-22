@@ -4,7 +4,7 @@
 
 In late 2022, a survey was conducted to gauge public sentiment towards cryptocurrencies following a tumultuous year in the industry. The study aimed to explore awareness, ownership, attitudes, and future intentions regarding cryptocurrencies among the general population in the United States.
 
-The survey, consisting of 18 questions, was distributed to a random sample of QuestionPro Audience panel members from December 22-28, 2022. A total of 178 completed responses were collected. The data were weighted by gender to account for oversampling of females (69%) and analyzed using SPSS.
+The survey, consisting of 18 questions, was distributed to a random sample of QuestionPro Audience panel members from December 22-28, 2022. A total of 150 completed responses were collected. 
 
 ## Executive Summary
 

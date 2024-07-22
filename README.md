@@ -17,7 +17,12 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
 2. Raw data was uploaded to Claude 3.5 Sonnet with the following prompt to create banner tables and perform chi-square analysis:
 
    ```
-   I have uploaded a raw data file that contains results from a survey about cryptocurrencies. I would like you to create market research banner tables for this information. Specifically, for the first 5 questions in the survey, I would like along the y-axis the percentage of respondents who selected each answer choice. At the top, along the y-axis, should be the answer choices for each of the demographic questions. Please output a nicely formatted set of banner tables. I don't want any analysis. Just the formatted data. 
+   I have uploaded a raw data file that contains results from a survey about cryptocurrencies.
+   I would like you to create market research banner tables for this information.
+   Specifically, for the first 5 questions in the survey, I would like along the y-axis the percentage
+   of respondents who selected each answer choice. At the top, along the y-axis, should be the answer
+   choices for each of the demographic questions. Please output a nicely formatted set of banner tables.
+   I don't want any analysis. Just the formatted data. 
 
    Please condense the categories for the age question into the following: 
    a) 18-34 
@@ -132,9 +137,11 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
 
    1) The first document describes the objectives and methodology of a cryptocurrency survey I fielded in late 2022.
 
-   2) The second document contains the results (in banner table format) of the first 5 questions in the survey. Across the top of the banner tables are the demographic questions. A chi square analysis is located under the banner tables. 
+   2) The second document contains the results (in banner table format) of the first 5 questions in the survey.
+   Across the top of the banner tables are the demographic questions. A chi square analysis is located under the banner tables. 
 
-   Write a concise report that summarizes the results. This summary should incorporate information in the objectives/methodology document. This summary should be well written and professional in tone.
+   Write a concise report that summarizes the results. This summary should incorporate information in the objectives/methodology
+   document. This summary should be well written and professional in tone.
    ```
 
    Excerpt from the Final Report

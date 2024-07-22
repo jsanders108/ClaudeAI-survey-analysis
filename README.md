@@ -11,6 +11,7 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
 1. `crypto-survey-objectives.md`: Outlines the survey's objectives and methodology.
 2. `crypto-survey-banners.md`: Contains banner tables and chi-square analysis results.
 3. `crypto-survey-final-report.md`: The AI-generated comprehensive report based on the survey data.
+4. `crypto-survey-final-report.md`: The raw data file containing survey responses.
 
 ---
 

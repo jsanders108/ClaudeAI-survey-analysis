@@ -145,8 +145,6 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    objectives/methodology document. This summary should be well written and professional in tone.
    ```
 
-   ##Excerpt from the Final Report:
-
    <h1>Comprehensive Cryptocurrency Survey Report</h1>
 
    <h2>Introduction and Methodology</h2>
@@ -177,6 +175,7 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    </ol>
 
    <p>These findings suggest a need for targeted education and communication strategies to address diverse perspectives and potentially increase adoption among less engaged demographics.</p>
+
 
 ## Project Conclusions
 

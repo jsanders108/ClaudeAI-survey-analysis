@@ -144,7 +144,8 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    Write a concise report that summarizes the results. This summary should incorporate information in the
    objectives/methodology document. This summary should be well written and professional in tone.
    ```
-
+   Excerpt from the Final Report:
+   
    <h1>Comprehensive Cryptocurrency Survey Report</h1>
 
    <h2>Introduction and Methodology</h2>

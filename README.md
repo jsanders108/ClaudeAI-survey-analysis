@@ -138,10 +138,11 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    1) The first document describes the objectives and methodology of a cryptocurrency survey I fielded in late 2022.
 
    2) The second document contains the results (in banner table format) of the first 5 questions in the survey.
-   Across the top of the banner tables are the demographic questions. A chi square analysis is located under the banner tables. 
+   Across the top of the banner tables are the demographic questions. A chi square analysis is located under the
+   banner tables. 
 
-   Write a concise report that summarizes the results. This summary should incorporate information in the objectives/methodology
-   document. This summary should be well written and professional in tone.
+   Write a concise report that summarizes the results. This summary should incorporate information in the
+   objectives/methodology document. This summary should be well written and professional in tone.
    ```
 
    Excerpt from the Final Report

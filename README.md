@@ -1,4 +1,4 @@
-# Cryptocurrency Survey Analysis with AI
+# Survey Analysis with AI (Anthropic)
 
 ## Project Overview
 

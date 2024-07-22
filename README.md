@@ -43,8 +43,7 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    After creating the banner tables, for each of the first 5 questions, run chi-square analysis to determine if there are any statistically significant differences with each of the demographic questions.
    ```
 
-   <details>
-   <summary>Example: Banner Table for First Question</summary>
+   Example: Banner Table for First Question
 
    <table>
    <tr>
@@ -110,10 +109,8 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    <td>33%</td>
    </tr>
    </table>
-   </details>
 
-   <details>
-   <summary>Example: Chi-Square Results for First Question</summary>
+   Example: Chi-Square Results for First Question
 
    <h3>Chi-Square Test Results</h3>
 
@@ -126,7 +123,6 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    <tr><td>Income</td><td>9.18</td><td>3</td><td>0.027</td></tr>
    <tr><td>Computer Skills</td><td>15.64</td><td>2</td><td>&lt;0.001</td></tr>
    </table>
-   </details>
 
 3. After the banner tables and chi-square report were created, Claude was prompted to generate a final comprehensive report with the following prompt:
 
@@ -140,8 +136,7 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    Write a concise report that summarizes the results. This summary should incorporate information in the objectives/methodology document. This summary should be well written and professional in tone.
    ```
 
-   <details>
-   <summary>Excerpt from the Final Report</summary>
+   Excerpt from the Final Report
 
    <h1>Comprehensive Cryptocurrency Survey Report</h1>
 
@@ -173,7 +168,6 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    </ol>
 
    <p>These findings suggest a need for targeted education and communication strategies to address diverse perspectives and potentially increase adoption among less engaged demographics.</p>
-   </details>
 
 ## Conclusion
 
@@ -186,4 +180,8 @@ The use of AI in this project demonstrates how market researchers can:
 3. Gain rapid insights from survey data, allowing for more agile decision-making
 
 By automating these aspects of the research process, AI tools enable market researchers to focus more of their time and energy on strategic thinking, planning, and interpreting results in the context of broader business objectives. This shift can lead to more valuable insights and more impactful recommendations for stakeholders.
+
+As AI technology continues to evolve, its role in market research is likely to expand, potentially revolutionizing how we collect, analyze, and interpret data about consumer behavior and market trends.
+
+
 

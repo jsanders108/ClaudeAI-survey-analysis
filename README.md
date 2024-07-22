@@ -40,7 +40,8 @@ This project demonstrates the application of AI, specifically Anthropic's Claude
    b) University Undergraduate Bachelors 
    c) University Postgraduate (Master), University Postgraduate (PhD)
 
-   After creating the banner tables, for each of the first 5 questions, run chi-square analysis to determine if there are any statistically significant differences with each of the demographic questions.
+   After creating the banner tables, for each of the first 5 questions, run chi-square analysis to determine
+   if there are any statistically significant differences with each of the demographic questions.
    ```
 
    Example: Banner Table for First Question

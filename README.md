@@ -35,7 +35,7 @@ Survey data was collected from 150 U.S. respondents via a QuestionPro Audience p
 
 ### 2. AI-Powered Analysis
 
-Raw data was uploaded to Claude 3.5 Sonnet with the following prompt to create banner tables and perform chi-square analysis:
+I uploaded raw data to Claude 3.5 Sonnet with the following prompt to create banner tables and perform chi-square analysis:
 
 ```
 I have uploaded a raw data file that contains results from a survey about cryptocurrencies. I would like you to create market research banner tables for this information. Specifically, for the first 5 questions in the survey, I would like along the y-axis the percentage of respondents who selected each answer choice. At the top, along the y-axis, should be the answer choices for each of the demographic questions. Please output a nicely formatted set of banner tables. I don't want any analysis. Just the formatted data. 
@@ -147,7 +147,7 @@ After creating the banner tables, for each of the first 5 questions, run chi-squ
 
 ### 3. AI-Generated Comprehensive Report
 
-After the banner tables and chi-square report were created, Claude was prompted to generate a final comprehensive report with the following prompt:
+After the banner tables and chi-square report were created, I asked Claude to generate a final comprehensive report with the following prompt:
 
 ```
 I have uploaded two documents:
